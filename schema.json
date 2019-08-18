@@ -1,0 +1,236 @@
+{
+
+    "id": 1,
+    "name": "new game",
+    "row": 10,
+    "column": 10,
+    "mines": 5,
+    "cell_open": 0,
+    "status": "started",
+    "created_at": "2019-08-17T21:46:58.807Z",
+    "updated_at": "2019-08-17T21:47:42.143Z",
+    "board":[
+    
+      {
+        "row":1,
+        "grid":[
+            {
+                "column":1,
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+                 
+            
+           },
+           {
+                "column":2,
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":3,
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+               {
+                "column":4,
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":5,
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           }
+        ]
+      },
+      {
+        "row":2,
+        "grid":[
+            {
+                "column":1,
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":2,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":3,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+               {
+                "column":4,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":5,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           }
+        ]
+      },
+      {
+        "row":3,
+        "grid":[
+            {
+                "column":1,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":2,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":3,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+               {
+                "column":4,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":5,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           }
+        ]
+      },
+      {
+        "row":4,
+        "grid":[
+            {
+                "column":1,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":2,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":3,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+               {
+                "column":4,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":5,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           }
+        ]
+      },
+      {
+        "row":5,
+        "grid":[
+            {
+                "column":1,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":2,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           },
+           {
+                "column":3,
+             
+              "is_mine":true,
+              "open": false,
+              "near_mine":2
+            
+           },
+               {
+                "column":4,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+        
+           },
+           {
+                "column":5,
+             
+              "is_mine":false,
+              "open": false,
+              "near_mine":2
+            
+           }
+        ]
+      }
+      
+    ]
+  }
