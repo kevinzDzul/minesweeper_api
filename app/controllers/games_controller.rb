@@ -1,16 +1,16 @@
+include Swagger::Blocks
 class GamesController < ApplicationController
-  include Swagger::Blocks
   before_action :set_game, only: [:show, :update, :destroy]
 
-  swagger_path '/game/{id}' do
+  swagger_path '/games/{id}' do
 
-    # GET /game/:id
+    # GET /games/:id
     operation :get do
       key :description, 'Find a user by ID'
       key :operationId, :show
 
       # definición del parámetro id incluido en el path
-      parameter name: :id do
+      parameter :id do
         key :in, :path
         key :description, 'Game ID'
         key :required, true
